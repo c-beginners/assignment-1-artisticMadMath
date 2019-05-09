@@ -1,6 +1,8 @@
 /* ---- TASK 1: PALINDROME (NO STRING LIBRARY) ---- */
 // User: madmath #1528
 
+// It's still broken :'(
+
 #include <stdio.h>
 #include <iostream>
 
@@ -38,8 +40,8 @@ void ParseUserInput(char* inputArray, string input) {
 
    for (int i = 0; i < stringSize; i++) {
       if (isalpha(input[i])) {
-         cout << "Added i = " << i << endl; // FIXME
-         cout << "parsedInput[i] = " << parsedInput[i] << endl; // FIXME
+         cout << "Added i = " << i << endl; // TEST - FIXME
+         cout << "parsedInput[i] = " << parsedInput[i] << endl; // TEST - FIXME
          parsedInput[i] = input[i];
       }
    }
