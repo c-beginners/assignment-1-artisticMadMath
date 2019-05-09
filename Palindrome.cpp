@@ -1,6 +1,8 @@
 /* ---- TASK 1: PALINDROME ---- */
 // User: madmath #1528
 
+// I think there are errors in this one
+
 #include <stdio.h>
 #include <iostream>
 #include <string>
